@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:deepseek_usage}",
+            "name": "Debug DeepSeekUsage",
+            "target": "DeepSeekUsage",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug DeepSeekUsage"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:deepseek_usage}",
+            "name": "Release DeepSeekUsage",
+            "target": "DeepSeekUsage",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release DeepSeekUsage"
+        }
+    ]
+}
